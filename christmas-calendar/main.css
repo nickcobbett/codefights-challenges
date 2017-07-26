@@ -1,0 +1,114 @@
+* {
+  font-family: sans-serif;
+}
+
+.calendar {
+  max-width: 90vw;
+  max-height: 90vw;
+  background-color: rgba(60, 179, 113, 1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar--month {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(201, 60, 60, 1);
+}
+
+.calendar--month li {
+  color: rgba(229, 229, 229, 1);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar--month li:nth-child(2) {
+  flex: 3;
+  font-size: 6vw;
+  text-transform: uppercase;
+}
+
+
+
+.calendar--table {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar--weekdays {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: rgba(229, 229, 229, 1);
+}
+
+.calendar--weekdays li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar--weekdays div {
+  font-size: 2vw;
+}
+
+.calendar--short-month {
+  display: none;
+}
+
+.calendar--days {
+  background-color: rgba(255, 255, 255, 1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar--week {
+  flex: 1;
+  display: flex;
+}
+
+.calendar--week li {
+  flex: 1;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  font-weight: 300;
+  color: rgba(153, 153, 153, 1);
+}
+
+.calendar--week li:first-child {
+  color: rgba(201, 60, 60, 1);
+}
+
+.calendar--week:nth-child(5) li:first-child {
+  background-color: rgba(238, 238, 238, 1);
+  color: rgba(60, 179, 113, 1);
+  font-family: Molle;
+}
+
+.-active {
+  background-color: ;
+}
+
+ul,li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  transform: scale(.7);
+}
+
+g {
+  fill: rgba(60, 179, 113, 1);
+}
