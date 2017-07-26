@@ -1,0 +1,159 @@
+* {
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.frame {
+  position: relative;
+  /*margin: 20px;*/
+  width: 370px;
+  height: 370px;
+  background-color: #33485f;
+  border-radius: 10px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.headline {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.headline .normal {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.headline .small {
+  font-weight: 300;
+}
+
+.circle-big {
+  margin: auto;
+  width: 50%;
+  height: 114px;
+  position: relative;
+
+}
+.circle-big .normal {
+  font-size: 24px;
+}
+
+.circle-big .small {
+  font-size: 12px;
+  color: rgba(100, 129, 146, 1);
+}
+
+.circle-big > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-big svg {
+  width: 114px;
+  height: 114px;
+}
+
+.circle-big circle {
+  stroke-width: 10px;
+}
+
+.circle-big .progress{
+  stroke: #24e0b4;
+  stroke-dasharray: 124;
+}
+
+.circles-small {
+  margin-top: 30px;
+}
+
+.circle-small {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 0 25px;
+  position: relative;
+}
+
+.circle-small > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circles-small svg {
+  width: 80px;
+  height: 80px;
+}
+
+.circle-small .small {
+  color: rgba(100, 129, 146, 1);
+}
+
+.circle-small circle {
+  stroke-width: 6px;
+}
+
+.circle-small .normal {
+  font-size: 15px;
+}
+
+.circle-small .small {
+  font-size: 10px;
+}
+
+circle {
+  fill: none;
+}
+
+circle.main {
+  stroke: rgb(27, 42, 51);
+}
+
+circle.progress {
+  stroke: rgb(255, 101, 69);
+  stroke-linecap: round;
+  transform-origin: center;
+}
+
+.one {
+  stroke-dasharray: 169;
+  transform: rotate(-90deg);
+}
+
+.two {
+  stroke-dasharray: 88;
+  stroke-dashoffset: 116;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 500px) {
+
+  .frame {
+    width: 180px;
+    height: 370px;
+  }
+
+  .center {
+    transform: translate(-50%, -55%);
+  }
+
+  .headline {
+    margin-top: 8px;
+  }
+
+  .circles-small {
+    margin-top: 10px;
+  }
+}
