@@ -1,0 +1,147 @@
+*  {
+  font-family: sans-serif;
+}
+
+.profile-frame {
+  width: 500px;
+  height: 383px;
+  background-color: #33485f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  width: 422px;
+  height: 283px;
+  border-radius: 8px;
+  display: flex;
+  align-items: stretch;
+  background-color: #ffffff;
+}
+
+.profile {
+  flex: 2;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  background-color: #3498db;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.image svg {
+  display: block;
+  margin: 0 auto;
+  fill: #ffffff;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.job {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+button {
+  background: none;
+  border: .8px solid #000000;
+  /*box-shadow: -1px -1px 1px 1px rgba(0,0,0,0.75);*/
+  color: rgba(43, 61, 82, 1);
+  width: 170px;
+  height: 32px;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stats {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.box {
+  flex: 1;
+  background-color: #3498db;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-child(2) {
+  border-width: 1px 0;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+.value {
+  font-size: 18px;
+}
+
+.parameter {
+  font-size: 11px;
+}
+
+@media only screen and (min-device-width: 375px) {
+  .profile-frame {
+    width: 345px;
+    height: 381px;
+  }
+
+  .profile-card {
+    width: 265px;
+    height: 280px;
+    flex-direction: column;
+  }
+
+  .profile {
+    margin-top: 28px;
+    padding-top: 0;
+    flex: 2;
+  }
+
+  .stats {
+    flex: 1;
+    flex-direction: row;
+  }
+
+  .actions {
+    flex-direction: row;
+    width: 205px;
+  }
+
+  .box:nth-child(2) {
+    border-width: 0 1px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
+  button {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+}
