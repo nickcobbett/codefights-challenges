@@ -1,0 +1,112 @@
+.panel {
+    width: 340px;
+    height: 340px;
+    border-radius: 50px;
+    background-color: rgba(245,245,245,1);
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+
+.left-button {
+    width: 70px;
+    height: 180px;
+    margin-top: 120px;
+    margin-left: 20px;
+    background-color: rgba(211,211,211,1);
+    box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.right-button {
+    width: 70px;
+    height: 180px;
+    margin-top: 120px;
+    margin-right: 20px;
+    background-color: rgba(211,211,211,1);
+    box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center-button {
+    width: 150px;
+    height: 280px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.round-back-upper {
+    width: 124px;
+    height: 124px;
+    background-color: rgba(255,20,147,1);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(182, 174, 174);
+    /*box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;*/
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-upper-button {
+    height: 124px;
+    border-radius: 100px;
+    background-color: rgba(255,20,147,1);
+}
+
+.round-middle-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 53px;
+/*     border-style: solid; */
+/*     border-width: 3px; */
+/*     border-color: rgb(182, 174, 174); */
+    background-color: rgba(211,211,211,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+}
+
+.up-button {
+    transform: rotate(270deg);
+    background-color: rgba(211,211,211,1);
+}
+
+.down-button {
+    transform: rotate(90deg);
+    background-color: rgba(211,211,211,1);
+}
+
+.text-ok {
+    font-size: 50px;
+    color: rgba(54,54,54,1);
+}
+
+.text-up {
+    font-size: 30px;
+    color: rgba(54,54,54,1);
+}
+
+.text-down {
+    font-size: 30px;
+    color: rgba(54,54,54,1);
+}
+
+.text {
+    font-size: 20px;
+    color: rgba(54,54,54,1);
+}
