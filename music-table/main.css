@@ -51,6 +51,7 @@ body {
 
 .header .cell {
   color: #787275;
+  text-transform: uppercase;
 }
 
 .row {
