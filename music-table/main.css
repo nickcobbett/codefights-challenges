@@ -1,0 +1,119 @@
+* {
+  color: #807b7e;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f5f6f7;
+}
+
+.music-chart {
+  width: 94vw;
+  height: 27.22vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.38);;
+  /*align-items: stretch;*/
+  /*border: 1px dashed black;*/
+
+}
+
+.caption {
+  height: 6.1vw;
+  width: 100%;
+  background-color: #fafbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 2.8vw;
+  margin-bottom: 1px;
+}
+
+.music-table {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.header {
+  flex: 1;
+  margin: 1px 0;
+  padding-left: 1%;
+  background-color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.header .cell {
+  color: #787275;
+}
+
+.row {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1px 0;
+  padding-left: 1%;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.row:nth-child(3) {
+  background-color: #fafbfb;
+}
+.cell {
+  display: inline-block;
+}
+
+.number {
+  flex: 0 0 3%;
+  color: #9b9b9b;
+}
+
+.title {
+  flex: 0 0 30%;
+  color: #868183;
+}
+
+.singer {
+  flex: 0 0 15%;
+  margin-left: 2%;
+  text-align: center;
+  color: #59ccb7;
+}
+
+.genre {
+  flex: 0 0 10%;
+  margin-left: 8%;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.link {
+  margin-left: auto;
+  color: #59ccb7;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .singer {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .title {
+    flex: 0 0 70%;
+  }
+  .genre {
+    margin-left: auto;
+  }
+}
